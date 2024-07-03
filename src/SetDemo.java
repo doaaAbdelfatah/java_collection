@@ -9,7 +9,6 @@ public class SetDemo {
         set1.add(5);
         set1.add(9);
 
-
         HashSet set2 = new HashSet();
         set2.add(2);
         set2.add(4);
