@@ -29,7 +29,7 @@ public class StackDemo {
         stack1.push(new Person("ahmed" , 20));
         stack1.push(new Person("sara" , 18));
         stack1.push(new Student("Malak" , 12));
-        stack1.push(new Employee("Moahemd" , 33));
+        stack1.push(new Employee1("Moahemd" , 33));
 
         System.out.println("peek : "  +stack1.peek()); //Person{name='Moahemd', age=33.0}
 
@@ -72,8 +72,8 @@ class Student extends Person{
     }
 }
 
-class  Employee extends Person{
-    public Employee(String name, double age) {
+class  Employee1 extends Person{
+     Employee1(String name, double age) {
         super(name, age);
     }
 }
